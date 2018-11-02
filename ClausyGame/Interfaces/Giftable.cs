@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClausyGame.Giftable
+namespace ClausyGame
 {
-    class Stocking
+    interface Giftable
     {
+        bool isGiftable();
     }
 }

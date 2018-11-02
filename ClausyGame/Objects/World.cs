@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ClausyGame.Objects
 {
-    class World
+    class World : GameObject
     {
+
     }
 }

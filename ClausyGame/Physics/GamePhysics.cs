@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClausyGame.Giftable
+namespace ClausyGame.Physics
 {
-    class OpenWindow
+    class GamePhysics
     {
+
     }
 }
