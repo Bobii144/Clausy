@@ -17,12 +17,5 @@ namespace ClausyGame
         public int HalfHeight;
         public int Width;
         public int Height;
-
-
-        /*public bool isGiftable(GameObject obj)
-        {
-
-        }
-        */
     }
 }

@@ -8,5 +8,6 @@ namespace ClausyGame.Physics
 {
     class CollisionVsWorld
     {
+
     }
 }
