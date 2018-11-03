@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClausyGame
 {
-    class Stocking : GameObject, Giftable
+    class Stocking : GameObject, IGiftable
     {
-        public bool isGiftable()
+        public bool Gifted { get; set; }
+
+        public bool IsGiftable()
         {
             return true;
         }

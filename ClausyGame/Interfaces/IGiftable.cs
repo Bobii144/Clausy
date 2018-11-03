@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClausyGame
 {
-    class DogHouse : GameObject, Giftable
+    interface IGiftable
     {
-        public bool isGiftable()
-        {
-            return true;
-        }
+        bool IsGiftable();
+        bool Gifted { get;set; }
     }
 }

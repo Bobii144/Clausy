@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClausyGame
 {
-    class OpenWindow : GameObject, Giftable
+    class Chimney : GameObject, IGiftable
     {
-        public bool isGiftable()
+        public bool Gifted { get; set; }
+
+        public bool IsGiftable()
         {
             return true;
         }

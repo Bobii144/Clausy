@@ -14,6 +14,17 @@ namespace ClausyGame
 
         public ClausyGame()
         {
+            CharityBox box = new CharityBox();
+            GameObject[] array = new GameObject[2];
+            if (box.Gifted)
+            {
+                foreach(IGiftable o in array)
+                {
+                    o.Gifted = true;
+                }
+            }
+
+
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }

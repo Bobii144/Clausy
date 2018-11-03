@@ -41,16 +41,16 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Objects\CharityBox.cs" />
-    <Compile Include="Objects\Chimney.cs" />
+    <Compile Include="Objects\Giftable\CharityBox.cs" />
+    <Compile Include="Objects\Giftable\Chimney.cs" />
     <Compile Include="ClausyGame.cs" />
-    <Compile Include="Interfaces\Giftable.cs" />
+    <Compile Include="Interfaces\IGiftable.cs" />
     <Compile Include="Objects\GameObject.cs" />
-    <Compile Include="Objects\DogHouse.cs" />
-    <Compile Include="Objects\Fireplace.cs" />
-    <Compile Include="Objects\Homeless.cs" />
-    <Compile Include="Objects\OpenWindow.cs" />
-    <Compile Include="Objects\Stocking.cs" />
+    <Compile Include="Objects\Giftable\DogHouse.cs" />
+    <Compile Include="Objects\Giftable\Fireplace.cs" />
+    <Compile Include="Objects\Giftable\Homeless.cs" />
+    <Compile Include="Objects\Giftable\OpenWindow.cs" />
+    <Compile Include="Objects\Giftable\Stocking.cs" />
     <Compile Include="Objects\Reindeer.cs" />
     <Compile Include="Objects\Snow.cs" />
     <Compile Include="Objects\World.cs" />

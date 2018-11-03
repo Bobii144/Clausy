@@ -5,10 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ClausyGame
+
 {
-    class Chimney : GameObject, Giftable
+    class Homeless : GameObject, IGiftable
     {
-        public bool isGiftable()
+        public bool Gifted { get; set; }
+
+        public bool IsGiftable()
         {
             return true;
         }

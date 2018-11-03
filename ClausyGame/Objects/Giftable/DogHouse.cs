@@ -5,11 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ClausyGame
-
 {
-    class Homeless : GameObject, Giftable
+    class DogHouse : GameObject, IGiftable
     {
-        public bool isGiftable()
+        public bool Gifted { get; set; }
+
+        public bool IsGiftable()
         {
             return true;
         }
