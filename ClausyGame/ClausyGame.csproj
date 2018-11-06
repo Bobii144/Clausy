@@ -41,6 +41,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Objects\Apartment.cs" />
     <Compile Include="Objects\Giftable\CharityBox.cs" />
     <Compile Include="Objects\Giftable\Chimney.cs" />
     <Compile Include="ClausyGame.cs" />
@@ -51,13 +52,12 @@
     <Compile Include="Objects\Giftable\Homeless.cs" />
     <Compile Include="Objects\Giftable\OpenWindow.cs" />
     <Compile Include="Objects\Giftable\Stocking.cs" />
+    <Compile Include="Objects\House.cs" />
     <Compile Include="Objects\Reindeer.cs" />
     <Compile Include="Objects\Snow.cs" />
     <Compile Include="Objects\World.cs" />
     <Compile Include="Physics\GamePhysics.cs" />
     <Compile Include="Objects\Player.cs" />
-    <Compile Include="Physics\CollisionVsObject.cs" />
-    <Compile Include="Physics\CollisionVsWorld.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
