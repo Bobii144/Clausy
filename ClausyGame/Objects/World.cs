@@ -8,6 +8,9 @@ namespace ClausyGame.Objects
 {
     class World : GameObject
     {
+        public World()
+        {
+        }
 
     }
 }
